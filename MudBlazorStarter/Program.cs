@@ -7,6 +7,10 @@ using Microsoft.EntityFrameworkCore;
 using MudBlazorStarter.Areas.Identity;
 using MudBlazorStarter.Data;
 using MudBlazor.Services;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
